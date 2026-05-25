@@ -1,0 +1,7 @@
+1. git init - создаёт новый Git- репозиторий в папке
+2. git config --global user.name "Амин" - задаёт имя автора коммитов
+3. git config --global user.email "почта@гугл.ком" - задаёт email автора
+4. git add . - добавляет все изменённые файлы в индекс (подготовка к сохранению)
+5. git commit -m "сообщение" - сохраняет изменения в истории с комментарием
+6. git remote add origin https://github.com/wraithplug - привязывает локальный проект к GitHub
+7. git push -u origin main - отправляет коммиты на сервер в ветку main
